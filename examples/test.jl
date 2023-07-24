@@ -38,6 +38,9 @@ let
         lsβ,
         abs.((lsfe-lsfe0)./lsfe0),
         xscale = :log2,
-        yscale = :log10
+        yscale = :log10,
+        xlabel = "beta",
+        ylabel = "rel. err. fe",
+        title = "XY chain"
     )
 end

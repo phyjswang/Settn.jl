@@ -12,7 +12,7 @@ using SETTN: contract, +
 ## Installation
 
 ```julia
-] add SETTN
+julia> ] add SETTN
 ```
 
 ## Usage
@@ -41,13 +41,13 @@ function get_fe(ρ::MPO, β::Float64)
 
 ### Example
 
-Check `examples` folder for computing free energy of the XY chain:
+Check the `examples/` directory for computing free energy of the XY chain:
 
 ```julia
-cd("examples")
-using Pkg
-Pkg.instantiate()
-include("test.jl")
+julia> cd("examples")
+julia> using Pkg
+julia> Pkg.instantiate()
+julia> include("test.jl")
 ```
 
 ## Advanced usage

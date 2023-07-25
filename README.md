@@ -52,8 +52,7 @@ julia> include("test.jl")
 
 ## Advanced usage
 
-Two-site variational MPO sum `+` and product `contract`, are extensions from [ITensors.jl](https://github.com/ITensor/ITensors.jl) with `::Algorithm"variational"`, more details can be found in `./src/mpo.jl`; also check the relevant part of source code in `ITensors.jl` package.
-
+Two-site variational MPO sum `+` and product `contract`, are extensions from [ITensors.jl](https://github.com/ITensor/ITensors.jl) with `::Algorithm"variational"`, more details can be found in `./src/mpo.jl`; also check the relevant part of source code in `ITensors.jl` package. Note the sweep scheme for variational sum and product follows the same one for `ITensors.jl`'s `dmrg` function.
 ## TODO
 
 - Implement a more numerically stable MPO product, such as the one given in [PRB **102**, 035147](https://doi.org/10.1103/PhysRevB.102.035147)

@@ -12,7 +12,7 @@ using SETTN: contract, +
 ## Installation
 
 ```julia
-julia> ] add SETTN
+julia> ] add Settn
 ```
 
 ## Usage

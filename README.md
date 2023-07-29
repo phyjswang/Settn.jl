@@ -1,4 +1,4 @@
-# SETTN.jl
+# Settn.jl
 
 A prototype of the series-expansion thermal tensor network (SETTN) algorithm [[PRB **95**, 161104](https://doi.org/10.1103/PhysRevB.95.161104)] is illustrated for the XY chain. Other models can be easily customized thanks to `ITensors.jl`'s `OpSum` function.
 

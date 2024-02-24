@@ -2,7 +2,7 @@
 
 A prototype of the series-expansion thermal tensor network (SETTN) algorithm [[PRB **95**, 161104](https://doi.org/10.1103/PhysRevB.95.161104)] is illustrated for the XY chain. Other models can be easily customized thanks to `ITensors.jl`'s `OpSum` function.
 
-> This package is also an essential ingredient for more advanced thermal tensor network algorithms, such as [XTRG.jl](https:://github.com/phyjswang/XTRG.jl) and [tanTRG.jl](https://github.com/phyjswang/tanTRG.jl). In particular, **two-site variational MPO sum and product** discussed in [PRB **95**, 161104](https://doi.org/10.1103/PhysRevB.95.161104) and [PRX **8**, 031082](https://doi.org/10.1103/PhysRevX.8.031082) are implemented, which can be used in other modules via:
+> This package is also an essential ingredient for more advanced thermal tensor network algorithms, such as [XTRG](https://link.aps.org/doi/10.1103/PhysRevX.8.031082) and [tanTRG](https://link.aps.org/doi/10.1103/PhysRevLett.130.226502). In particular, **two-site variational MPO sum and product** discussed in [PRB **95**, 161104](https://doi.org/10.1103/PhysRevB.95.161104) and [PRX **8**, 031082](https://doi.org/10.1103/PhysRevX.8.031082) are implemented, which can be used in other modules via:
 
 ```julia
 using SETTN: +, contract
